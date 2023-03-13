@@ -1,0 +1,19 @@
+<option value="<?php echo $cur['id_curso']?>"<?php echo $cur['id_curso'] == $alumno->idcurso && is_object($alumno) ? 'selected' : ''?>><?php echo $cur['anio'].' '. $cur['division']?> </option>
+
+<?= isset($alumno) ? $alumno->idcurso:''; ?>
+
+
+//$result = mysqli_query($db, 'select a.id_alumno as id, a.nombre as nombre, a.apellido as apellido, c.anio as anio, c.division as division from alumnos as a inner join cursos as c on a.id_curso = c.id_curso');
+        //$alumnos = array();
+        //while($alumno = $result->fetch_assoc())
+        //    $alumnos[] = $alumno;
+
+        
+        //$res = mysqli_fetch_array($result);
+        //var_dump($res);
+
+        //while($alumno = $result->fetch_assoc())
+          //  $alumnos[] = $alumno;
+        //return $alumnos;
+        //var_dump($alumnos);
+        //die();
