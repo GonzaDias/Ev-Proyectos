@@ -8,6 +8,7 @@
     <title>CRUD Alumnos</title>
 </head>
 <body>
+    <p>Hola amigos!!!!!!!!!!</p>
     <?php if(isset($alumno) && isset($edit)):?>
         <h1>Editando Alumno <?=$alumno->nombre?></h1>
         <?php $url = URL_BASE."alumno/guardarAlumno_ctrl&id=".$alumno->id; ?>
